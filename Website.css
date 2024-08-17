@@ -1,6 +1,4 @@
-:root{
 
-}
 
 body{
     color: black;
@@ -18,6 +16,34 @@ h2{
     color: black;
     text-align: center;
 }
+
+.Main-Section{
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.Header{
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.Navigation{
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: lightgray;
+}
+
+.Button-Elements{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 #About-Me-Button{
     background-color: lightblue;
