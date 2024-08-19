@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Tahoma', sans-serif;
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background: white;
+
 }
 
 .Button-Elements{
@@ -10,19 +17,73 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: darkgray;
+    background:navajowhite;
     position: relative;
-    opacity: 0.75;
     height: 70px;
 }
 
+.options {
+    display: flex;
+    gap: 30px;
+}
+
+.options li{
+    list-style-type: none;
+}
+
+.options li a{
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger{
+    display: none;
+
+}
+
+.hamburger i{
+    color: black;
+    font-size: 30px;
+    display: none;
+}
+
+@media (max-width: 600px){
+    .Button-Elements ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: navajowhite;
+        gap: 0;
+        overflow: hidden;
+    }
+
+    .Button-Elements ul li{
+        padding: 20px;
+    }
+
+    .hamburger{
+        display: block;
+    }
+}
+
+
+
+
 h1{
-    color: white;
+    color: black;
     text-align: center;
 }
 
 h2{
-    color: white;
+    color: black;
+    text-align: center;
+}
+
+h3{
+    color: black;
     text-align: center;
 }
 
