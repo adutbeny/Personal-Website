@@ -19,6 +19,7 @@ html, body{
     justify-content: space-between;
     background:navajowhite;
     position: relative;
+    opacity: 65%;
     height: 70px;
 }
 
