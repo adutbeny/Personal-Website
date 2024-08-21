@@ -45,7 +45,6 @@ html, body{
 .hamburger i{
     color: black;
     font-size: 30px;
-    display: none;
 }
 
 @media (max-width: 600px){
@@ -63,13 +62,23 @@ html, body{
 
     .Button-Elements ul li{
         padding: 20px;
+        padding-top: 0;
     }
 
     .hamburger{
         display: block;
     }
-}
 
+    .Button-Elements{
+        opacity: 100%
+    }
+
+    .options{
+        transition: all 0.5s;
+    }
+
+
+}
 
 
 

@@ -1,12 +1,14 @@
-let bar = document.getElementById("options");
-bar.style.maxHeight = "0px";
+
+
+let NavList = document.querySelector(".options");
+NavList.style.maxHeight = "0px";
 
 function toggleBar() {
-    if (bar.style.maxHeight == "0px"){
-        bar.style.maxHeight = "300px"
+    if (NavList.style.maxHeight == "0px"){
+        NavList.style.maxHeight = "300px"
     }
     else{
-        bar.style.maxHeight = "0px"
+        NavList.style.maxHeight = "0px"
     }
 }
 
