@@ -3,13 +3,12 @@
     font-family: sans-serif;
 }
 
-html, body{
+body{
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
     background: white;
-
 }
 
 .Button-Elements{
@@ -98,14 +97,21 @@ html, body{
     }
 }
 
-h1, h2, h3{
+h1, h2, h3, p{
     color: black;
     text-align: center;
 }
 
 .Main-Section{
-    margin-top: 50px;
+    margin-top: 750px;
+}
 
+#Projects-Section{
+    margin-top: 750px;
+}
+
+#Contact-Section{
+    margin-top: 750px;
 }
 
 
