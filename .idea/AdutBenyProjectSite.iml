@@ -8,9 +8,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="828a73b0ac" level="application" />
-    <orderEntry type="library" name="gsap" level="application" />
-    <orderEntry type="library" name="split-type" level="application" />
-    <orderEntry type="library" name="lenis" level="application" />
   </component>
 </module>
