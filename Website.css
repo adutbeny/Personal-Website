@@ -74,8 +74,7 @@ body{
 
     .Button-Elements ul li{
         margin: 0;
-        padding: 20px;
-        padding-top: 0;
+        padding: 0 20px 20px;
     }
 
     .hamburger{
@@ -106,25 +105,27 @@ h1, h2, h3, p{
     display: grid;
     place-items: center;
     align-content:center;
-    margin-top: 750px;
+    min-height: 300vh;
     opacity: 0;
-    transition: all 1s;
+    transition: opacity 2s ease-in-out;
 }
 
 #Projects-Section{
     display: grid;
-    margin-top: 750px;
-    margin-bottom: 750px;
+    place-items: center;
+    align-content:center;
+    min-height: 200vh;
     opacity: 0;
-    transition: all 1s;
+    transition: opacity 2s ease-in-out;
 }
 
-#Contact-Section{
+#Contacts-Section{
     display: grid;
-    margin-top: 750px;
-    margin-bottom: 250px;
+    place-items: center;
+    align-content:center;
+    min-height: 200vh;
     opacity: 0;
-    transition: all 1s;
+    transition: opacity 2s ease-in-out;
 }
 
 .show{
