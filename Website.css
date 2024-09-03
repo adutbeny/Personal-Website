@@ -42,6 +42,11 @@ body{
     color: black;
 }
 
+.options li a:hover{
+    background: cornflowerblue;
+    color: black;
+}
+
 .hamburger{
     margin: 0;
     padding: 0;
