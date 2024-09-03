@@ -105,12 +105,17 @@ h1, h2, h3, p{
 #About-Me-Section,
 #Projects-Section,
 #Contacts-Section{
+    opacity: 0;
     min-height: 300vh;
 
 }
 
-.show{
-    opacity: 0;
+#About-Me-Header.show,
+#About-Me-Section.show,
+#Projects-Section.show,
+#Contacts-Section.show{
+    transition: all 1s;
+    opacity: 1;
 }
 
 
