@@ -1,12 +1,12 @@
-const NavList = document.querySelector(".options");
-NavList.style.maxHeight = "0px";
+let Nav = document.querySelector(".options");
+Nav.style.maxHeight = "0px";
 function toggleBar() {
-    if (NavList.style.maxHeight === "0px"){
-        NavList.style.maxHeight = "300px"
+    if (Nav.style.maxHeight === "0px"){
+        Nav.style.maxHeight = "300px"
 
     }
     else{
-        NavList.style.maxHeight = "0px"
+        Nav.style.maxHeight = "0px"
     }
 }
 
@@ -23,21 +23,30 @@ const about_me_section = document.getElementById("About-Me-Section");
 const projects_section = document.getElementById("Projects-Section");
 const contacts_section = document.getElementById("Contacts-Section");
 
+function callbackFunction(entries){
+    console.log(entries);
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            console.log(entry.target.id)
+            if (entry.target.id === 'About-Me-Header'){
+                entry.target.classList.add('show');
+            }
+            else if (entry.target.id === 'About-Me-Section'){
+                entry.target.classList.add('show');
+            }
+            else if (entry.target.id === 'Projects-Section'){
+                entry.target.classList.add('show');
+            }
+            else if (entry.target.id === 'Contacts-Section'){
+                entry.target.classList.add('show');
+            }
+        }
+
+    })
+}
+
 observer.observe(header);
 observer.observe(about_me_section);
 observer.observe(projects_section);
 observer.observe(contacts_section);
 
-function callbackFunction(entries){
-    console.log(entries);
-    entries.forEach(entry => {
-        console.log(entry.target);
-        if(entry.isIntersecting){
-            entry.target.classList.add('show');
-        }
-        else{
-            entry.target.classList.remove('show');
-        }
-
-    })
-}
