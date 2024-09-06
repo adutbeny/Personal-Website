@@ -129,6 +129,12 @@ h1, h2, h3, p{
     padding-top: 110px;
 }
 
+#About-Me-Section,
+#Projects-Section,
+#Contacts-Section{
+    padding-top: 150px;
+}
+
 #About-Me-Header.show,
 #About-Me-Section.show,
 #Projects-Section.show,
