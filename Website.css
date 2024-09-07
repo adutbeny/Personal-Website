@@ -129,6 +129,16 @@ h1, h2, h3, p{
     padding-top: 110px;
 }
 
+#About-Me-Section{
+    background: papayawhip;
+}
+#Projects-Section{
+    background: cornsilk;
+}
+#Contacts-Section{
+    background: darkkhaki;
+}
+
 #About-Me-Section,
 #Projects-Section,
 #Contacts-Section{
