@@ -30,9 +30,12 @@ function callbackFunction(entries){
             console.log(entry.target.id)
             if (entry.target.id === 'About-Me-Header'){
                 entry.target.classList.add('show');
+                document.body.style.backgroundColor = 'white';
             }
             else if (entry.target.id === 'About-Me-Section'){
                 entry.target.classList.add('show');
+                document.body.style.backgroundColor = 'aquamarine';
+                document.body.style.transition = 'color 0.5s ease';
             }
             else if (entry.target.id === 'Projects-Section'){
                 entry.target.classList.add('show');
