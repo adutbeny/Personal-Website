@@ -35,18 +35,18 @@ function callbackFunction(entries){
             else if (entry.target.id === 'About-Me-Section'){
                 entry.target.classList.add('show');
                 document.body.style.backgroundColor = 'antiquewhite';
-                document.body.style.transition = 'color 1.0s ease';
+                document.body.style.transition = '1.0s ease';
             }
             else if (entry.target.id === 'Projects-Section'){
                 entry.target.classList.add('show');
                 document.body.style.backgroundColor = 'cadetblue';
-                document.body.style.transition = 'color 1.0s ease';
+                document.body.style.transition = '1.0s ease';
 
             }
             else if (entry.target.id === 'Contacts-Section'){
                 entry.target.classList.add('show');
                 document.body.style.backgroundColor = 'cornsilk';
-                document.body.style.transition = 'color 1.0s ease';
+                document.body.style.transition = '1.0s ease';
             }
         }
 
