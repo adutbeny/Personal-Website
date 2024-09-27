@@ -34,7 +34,7 @@ function callbackFunction(entries){
             }
             else if (entry.target.id === 'About-Me-Section'){
                 entry.target.classList.add('show');
-                document.body.style.backgroundColor = 'antiquewhite';
+                document.body.style.backgroundColor = 'darkseagreen';
                 document.body.style.transition = '1.0s ease';
             }
             else if (entry.target.id === 'Projects-Section'){
@@ -45,7 +45,7 @@ function callbackFunction(entries){
             }
             else if (entry.target.id === 'Contacts-Section'){
                 entry.target.classList.add('show');
-                document.body.style.backgroundColor = 'cornsilk';
+                document.body.style.backgroundColor = 'lavenderblush';
                 document.body.style.transition = '1.0s ease';
             }
         }
